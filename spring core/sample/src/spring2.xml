@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+
+
+<bean name="question" class="Assignment1Q2.Question">
+ <property name="QuestionId" value="1"/>
+ <property name="Question" value ="give five names"/>
+ <property name="answers" >
+ 
+ <set>
+  <value>vnkat</value>
+  <value>vnky</value>
+  <value>vnky093</value>
+  <value>sai</value>
+  <value>sai093</value>
+
+</set> 
+ <!--   <list>
+  <value>venkat</value>
+  <value>vnky093</value>
+  <value>sai</value>
+  <value>sai093</value>
+  <value>fbdfb</value>
+  </list>-->
+  
+  
+  <!--  <map>
+   <entry key ="1" value ="venkat"/>
+   <entry key ="2" value ="vnky"/>
+   <entry key ="3" value ="vnky093"/>
+   <entry key ="4" value ="sai"/>
+   <entry key ="5" value ="sai093"/>
+  </map> --> 
+ </property>
+</bean>
+
+
+</beans>

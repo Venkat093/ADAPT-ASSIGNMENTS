@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<bean name="STUDENT" class="Assignment1Q8.student" init-method="init" destroy-method="cleanup">
+<property name="roll" value="01"/>
+<property name="name" value="venkat"/>
+<property name="clas" value="10">
+</property>
+</bean>
+</beans>

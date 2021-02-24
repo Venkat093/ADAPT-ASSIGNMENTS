@@ -1,0 +1,96 @@
+
+
+
+.back1{
+    background-image: url("../img1.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ text-align: center;
+
+}
+#p1
+{
+  text-align: center;
+  padding-top: 10%;
+}
+#p2
+{
+  text-align: center;
+  padding-top: 10%;
+  color: antiquewhite;
+}
+p{
+  text-align: center;
+padding-top: 20%;
+  color: white;
+}
+p .heighlight
+{
+  background-color: rgb(99, 94, 94);
+  font-size: 40px;
+  padding: 2px;
+}
+
+
+.container{
+    background-color: rgb(156, 156, 184);
+    color: white;
+    padding: 30px;
+    text-align: center;
+  
+}
+.back2{
+  background-image: url("../img/img3.jpg");
+min-height: 400px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+ margin-top: -2%; 
+}
+p .heighlight1
+{
+  font-size: 40px;
+  padding: 2px;
+  color: wheat;
+  margin: -2%;
+}
+.container1{
+  background-color: rgb(50, 50, 56);
+  color: white;
+  padding: 30px;
+  text-align: center;
+
+}
+.back3{
+  background-image: url("../img/img4.jpg");
+min-height: 400px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+ margin-top: -2%; 
+}
+.container2{
+  background-color: rgb(50, 50, 56);
+  color: white;
+  padding: 30px;
+  text-align: center;
+
+}
+.back4{
+  background-image: url("../img/img5.jpg");
+min-height: 700px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+margin-top: -2%;
+
+}

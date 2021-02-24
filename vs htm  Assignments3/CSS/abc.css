@@ -1,0 +1,94 @@
+header h1 label {
+    padding-top: 30px;
+   float: left;
+   margin-bottom: 30px;
+}
+body{
+    margin-top: 30px;
+    font: 15px/1.5 ;
+    font-style: Areal,Helvatica;
+    line-height: 1.5;
+    margin: 80px; 
+    padding: 80px;
+        }
+.form1{
+    padding: 5px;
+    width: 80%;
+    margin-top: 30px;
+   border:rgb(216, 216, 63) 2px solid;
+   align-content: center;
+   border-radius: 20px;
+}
+.form2{
+    padding: 5px;
+    width: 80%;
+    margin-top: 30px;
+   border:rgb(216, 216, 63) 2px solid;
+   align-content: center;
+   border-radius: 20px;
+   margin-bottom: 30px;
+}
+/* .form3 {
+    padding: 3px;
+    width: 80%;
+    margin-top: 30px;
+    align-content: center;
+} */
+.div1 label{
+  display : block;
+}
+.div4 label{
+  display: block;
+ 
+}
+.div1{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.div2{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+/* .div4 {
+   padding-left: 30px;
+   float: left;
+   border:rgb(216, 216, 63) 2px solid;
+   border-radius: 20px;
+} */
+
+.div1 input{
+    width: 95%;
+}
+.div2 label{
+    display: block;
+}
+.div2 input{
+    width: 80%;
+}
+.div5 label{
+    display: block;
+}
+.div4 input{
+    width: 80%;
+}
+.div5 input{
+    width: 100%;
+}
+
+
+table td{
+    border-radius: 20px;
+    border:rgb(216, 216, 63) 2px solid;
+    padding: 30px;
+    margin-top: 30px;
+}
+ table .td2{
+
+    margin-left: 30%;
+}
+#s{
+    margin-top: 10%;
+}
+
+
+

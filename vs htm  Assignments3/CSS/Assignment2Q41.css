@@ -1,0 +1,52 @@
+#bgimg
+    {
+        background-image: url("../img/beach.jpg");
+      min-height: 600px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .head{
+        padding-top: 13%;
+        text-align: center;
+    }
+ button:hover {
+        background-color: rgb(51, 51, 35);
+      }
+      .bg1
+      {
+          background-color: rgba(100, 49, 49, 0.993);
+          font-size: large;
+          text-align: center;
+          color: white;
+          padding: 4%;
+      }
+
+.bg2
+      {
+          background-color: rgba(185, 171, 171, 0.993);
+          font-size: large;
+          text-align: center;
+          color: white;
+          color: rgba(100, 49, 49, 0.993);
+          padding: 4%;
+      }
+      #p1
+      {
+        background-color: rgba(100, 49, 49, 0.993);
+        font-size: large;
+        text-align: center;
+        color: white;
+        padding: 4%;
+      }
+      #p2
+      {
+        background-color: rgba(185, 171, 171, 0.993);
+        font-size: large;
+        text-align: center;
+        color: white;
+        color: rgba(100, 49, 49, 0.993);
+        padding: 4%;
+      }

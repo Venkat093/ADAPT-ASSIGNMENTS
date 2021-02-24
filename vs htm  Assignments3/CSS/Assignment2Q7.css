@@ -1,0 +1,81 @@
+#back1{
+    background-image: url("../img/MUSIC.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ text-align: center;
+}
+#back3{
+    background-image: url("../img/night.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ text-align: center;
+}
+#id
+{
+    margin-top: 3%;
+}
+#back2
+{
+    background-color: rgb(46, 43, 43);
+    min-height: 900px;
+}
+#back4
+{
+   background-color: rgb(46, 43, 43);
+    min-height: 300px;
+    color: white;
+}
+#head
+{
+    padding-top: 22%;
+    color: white;
+}
+#head2
+{
+    color: white;
+    padding-top: 2%;
+}
+#head3
+{
+    color: white;
+    padding-top: 4%;
+    font-size: 18px;
+}
+.start
+{
+    margin-left: 40%;
+}
+ .box img{
+     height: 400px;
+    width: 700px;
+    margin-left: 20%;
+    padding-top: 5%;
+   
+}
+.start1
+{
+    margin-left: 40%;
+   
+    background-color: rgb(31, 71, 97);
+}
+.box1 img{
+    width: 400px;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+.box3 img{
+    width: 400px;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+#s2
+{
+    margin-left: 4%;
+}
+

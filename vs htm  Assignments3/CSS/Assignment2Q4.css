@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+    background-color: rgb(73, 68, 68);
+    padding: 5%;
+    color: white; 
+    margin: auto;
+}
+body{
+    margin: auto;
+}
+#sub{
+    background-color: rgb(73, 68, 68) ;
+    color: white;
+}
+.div1
+{
+    margin-top: -2% ;
+    background-color: wheat;
+    padding: 3%;
+    text-align: center;
+}
+.p1
+{
+    margin-left: 25%;
+    text-align: left;
+}
+.p2
+{
+    text-align: right;
+    margin-right: 25%;
+}
+footer .heighlight
+{
+    color: blue;
+}
+.row
+{
+    background-color: rgb(56, 53, 53);
+}
+.boxes
+{
+    margin-top: 20px;
+}
+.boxes .box
+{
+    background-color: white;
+    /* float:left;  */
+    width: 30%;
+    text-align: center;
+}
+.boxes .box img{
+    width: 200px;
+}
+.div2
+{
+    text-align: center;
+}
+                                                                   

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="CSS/Assignment2Q2.css">
+</head>
+<body>
+    <header>
+        <h1 class="h1">LOAN APPLICATION FORM</h1>
+        <label for="Accountnumber"> Account Number</label>
+        <input type="number"  required>
+    </header>
+    <div>
+        
+        <form class="form1">
+            <div class="div1">
+                <p>Personal Details</p>
+            <label id="name-label" for="name">Name:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Name">  
+     <label id="home-Address" for="address">Home Address:</label>
+      <input type="text" required id="adress" name="user_address" placeholder="address">
+      <label  for="home number">Home number:</label>
+      <input type="number" required name="user_home number" placeholder="number">  
+      <label  for="mobile number">Mobile number:</label>
+      <input type="tel" required name="user_tel number" placeholder="tel number">
+      <label  for="email">Personal Email:</label>
+      <input type="email" required name="user_email" placeholder="email">
+      <label  for="DOB">Date of Birth:</label>
+      <input type="date" required name="user_DOB" placeholder="DOb">
+      <label for="martial status"> Martial status:</label>
+      <select name="martial status" id="martial status">
+          <option value="single">Singlle</option>
+          <option value="Married">Married </option>
+          <option value="civil partner">Civil partner</option>
+          <option value="Separated">Separated</option>
+          <option value="Widowed">Widowed</option>
+          <option value="single">Singlle</option>
+          <option value="Divorsed">Divorced</option>
+      </select>
+      <label  for="dependent">No.of dependents<i>(including children)</i></label>
+            </div>
+ 
+    </form>
+    <form class="form2">
+        
+        <div class="div2">
+            <p>Employee details</p>
+        <label for="employer">Employer :</label>
+        <input type="text" required name="employe name" placeholder="employe name">
+        <label for="Grade"> Grade :</label>
+        <input type="text" required name="user_grade"placeholder="Grade">
+        <label id="Address" for="address">Address:</label>
+        <input type="text" required id="adress" name="user_address" placeholder="address">
+        <label for="employement">Temporary</label>
+        <input type="checkbox" value="perminent">
+        <label for="employement">permenent</label>
+        <input type="checkbox" value="perminent">
+        <label for="employement">Length of service</label>
+        <input type="text" required name="perminent" placeholder="length of service"> 
+       <div> <lable for="work email" >Work Email Address:</lable></div>
+        <input type="email" requird name="email" placeholder="email">
+        <label for="tel  number">Tel N3wxumber :</label>
+        <input type="tel" required name="tel number" min="1" max="10" placeholder="tel numbet">
+    </div>
+    </form>
+    <form class="form3">
+       
+       
+            <div class="div4">
+                <p>Loan/RepaymentDetails</p>
+        <label for="purpose of loan">purpose of loan :</label>
+        <input type="text" required name="purpose" >
+        <label for="Eisting CSCU" >Exixstting CSCU Loan Repayment </label>
+        <input type="number" name="payment" >
+        <label for="shares">Shares:</label>
+        <input type="number" required name="shares" >
+        <label for="Linked account">Linked account:</label>
+        <input type="text" maxlength="16" required name="linked account">
+      
+        <label for="Flexisaver">Flexi saver:</label>
+        <input  type="number" required name="flexi sver">
+        <label for="Total salary deduction">Total Saalry deduction:</label>
+        <input type="number" required name="salary deduction">
+        <label for="weekly">weekly:</label>
+        <input type="checkbox" name="weekly">
+        <label for="fortnigntly">fortnightly:</label>
+        <input type="checkbox" name="fortniigtly">
+        <p><i>(This Figuure to include loan repayment/intrest/savings)</i></p>
+    </div>
+    </form>
+    <form  class="form4">
+        <div  class="div5">
+            <label for="Loan1">Loan 1 :</label>
+            <input type="text" required name="Loan1" >
+            <label for="Loan2">Loan 2 :</label>
+            <input type="text" required name="Loan2" >
+            <label for="Shares">Shares :</label>
+            <input type="text" required name="Shares">
+            <label for="Linked A/C">Linked A/C :</label>
+            <input type="number" required name="Linked A/c">
+            <label for="Flexi" >Flexi :</label>
+            <input type="text" name="flexi" >
+            <label for="Adress" >Adress :</label>
+            <input type="text" name ="Adress">
+            <label for="phone" >Phone number :</label>
+            <input type="text" name ="phone">
+            <label for="mobile number" >Mobile Number :</label>
+            <input type="text" name ="mobile number">
+        </div>
+    </form>
+   
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Feb 16 16:33:32 IST 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\VNKY\\Desktop\\SPRING\ MVC\\Assignment1Q1\\WebContent\\WEB-INF\\lib\\spring-web-5.2.12.RELEASE.jar=WEB-INF/lib/spring-web-5.2.12.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\VNKY\\Desktop\\SPRING\ MVC\\Assignmentt\\WebContent\\WEB-INF\\lib\\spring-web-5.2.12.RELEASE.jar=WEB-INF/lib/spring-web-5.2.12.RELEASE.jar

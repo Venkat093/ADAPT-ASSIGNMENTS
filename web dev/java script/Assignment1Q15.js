@@ -20,3 +20,4 @@ function find(arr,func)
 
 
 // q5
+

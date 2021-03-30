@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -27,6 +26,11 @@ public class usercontroller {
 		//model.addObject("success",use.getUsername());
 		//return new ModelAndView("error");
 		return new ModelAndView("error");
+	}
+	@RequestMapping(value="/sai",method=RequestMethod.GET)
+	public ModelAndView usecontroll() {
+		ModelAndView model=new ModelAndView("error");
+	    return model;
 	}
 	
 }

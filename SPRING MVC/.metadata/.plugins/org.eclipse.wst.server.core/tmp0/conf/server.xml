@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\VNKY\Desktop\SPRING MVC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\VNKY\Desktop\SPRING MVC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignment1Q1" path="/Assignment1Q1" reloadable="true" source="org.eclipse.jst.jee.server:Assignment1Q1"/><Context docBase="C:\Users\VNKY\Desktop\SPRING MVC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignmentt" path="/Assignmentt" reloadable="true" source="org.eclipse.jst.jee.server:Assignmentt"/></Host>
+      <Context docBase="C:\Users\VNKY\Desktop\ADAPT!!\capgemini_assignments\SPRING MVC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\VNKY\Desktop\ADAPT!!\capgemini_assignments\SPRING MVC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignment1Q1" path="/Assignment1Q1" reloadable="true" source="org.eclipse.jst.jee.server:Assignment1Q1"/><Context docBase="C:\Users\VNKY\Desktop\ADAPT!!\capgemini_assignments\SPRING MVC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignmentt" path="/Assignmentt" reloadable="true" source="org.eclipse.jst.jee.server:Assignmentt"/></Host>
     </Engine>
   </Service>
 </Server>

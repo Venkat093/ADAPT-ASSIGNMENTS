@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 25px;
+    padding: 25px;
+    overflow: hidden;
+
+}
+
+li {
+    display: block;
+    font-weight: block;
+    color: blue;
+    background-color: pink;
+}
+
+.link {
+    
+    margin: 25px;
+    font-family: 40%;
+    height: 25%;
+    color: black;
+}

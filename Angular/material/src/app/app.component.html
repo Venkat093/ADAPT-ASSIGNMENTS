@@ -1,0 +1,41 @@
+<button mat-raised-button>raised</button>
+
+
+<p mat-display-4>kjlkdnwelfbew</p><br>
+<button mat-button-toggle>toggeke</button>
+
+<mat-button-toggle #t1>togle
+  {{t1.checked}}
+</mat-button-toggle>
+
+
+
+<div>
+  <mat-button-toggle-group #toggle="matButtonToggleGroup">
+    <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="React">React</mat-button-toggle>
+
+    <mat-button-toggle value="vue">vue</mat-button-toggle>
+    
+  </mat-button-toggle-group>
+  {{toggle.value}} 
+</div>
+
+
+<div>
+  <mat-icon>analytics</mat-icon>
+</div>
+
+<div>
+  <span matBadge=4 matBadgecolor="primary" >venkat</span> <br>
+  <br>
+  <hr>  
+  <span matBadge=4 matBadgecolor="primary"  matBadgeOverlap="false">venkat</span>
+</div>
+<hr>
+
+
+<div>
+  <span [matBadge]="NOtification" matBadgecolor="primary"  matBadgesize="large" [matbadge]="Notification ==0"   matBadgeOverlap="false" >venkat</span>
+
+</div>

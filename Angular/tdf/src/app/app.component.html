@@ -1,0 +1,83 @@
+<div class="container-fluid">
+  <h1>bootcapm</h1>
+  <form class="div1" #userform="ngForm" (ngSubmit)="onSubmit()" novalidate >
+    <div>
+    <!-- {{userform.value|json}}
+    <hr>
+    {{userModel|json}} -->
+    
+    <!-- <div ngModelGroup="address">
+      <div class="form-group">
+        <label>street</label>
+        <input type="text" class="for-controle" name="street" [ngModel]=use>
+      </div>
+      <div class="form-group">
+        <label>city</label>
+        <input type="text" class="for-controle" name="city" ngModel>
+      </div>
+      <div class="form-group">
+        <label>state</label>
+        <input type="text" class="for-controle" name="state" ngModel>
+      </div>
+    </div>
+     -->
+    {{userform.form.valid}}
+    
+    <div class="form-group">
+      <label>name</label>
+      <input type="text" required #name="ngModel"[class.is-invalid]="name.invalid && name.touched" class="for-control" name="username" [(ngModel)]="userModel.name">
+       <br><small [class.d-none]="name.valid|| name.untouched"> name is required</small> 
+    </div>
+        
+      
+
+  <div class="form-group">
+      <label>Email</label>
+      <input type="email" required #email="ngModel" [class.is-invalid]="email.invalid && email.touched" class="for-controle" name="email" [(ngModel)]="userModel.email">
+      <br><small class="text-danger" [class.d-none]="email.valid|| email.untouched"> email is required</small>
+    </div>
+    <div class="form-group">
+      <label>tel</label>
+      <input type="tel" required #tel="ngModel" pattern="^\d{10}$" [class.is-invalid]="tel.invalid && tel.touched" class="for-controle" name="tel" [(ngModel)]="userModel.tel">
+      <!-- <br><small class="text-danger" [class.d-none]="tel.valid|| tel.untouched"> 10 digits</small>
+   -->
+    </div>
+    <div *ngIf="tel.errors && (tel.invalid || tel.touched)">
+      <br><small class="text-danger" *ngIf="tel.errors.required"> required</small>
+      <small class="text-danger" *ngIf="tel.errors.pattern"> 10 digits</small>
+    </div>
+  
+    <div class="form-group">  
+    <select required #topic="ngModel" [class.is-invalid]="topic.invalid && topic.touched" [(ngModel)]="userModel.topic" >
+    <option selected>I am intrested in</option>
+    <option *ngFor="let topic of topics"> {{topic}} </option>
+  </select>
+  <br><small [class.d-none]="topic.valid|| topic.untouched"> choose topic</small> 
+    </div><br>
+    
+    <div class="mb-3">
+      <label>timeprefarence</label>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="timePrefarence"  [(ngModel)]="userModel.timePreference" value="morning">
+        <label class="form-check-label">Mornig (9-5)</label>
+      </div>
+      
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="timePrefarence" [(ngModel)]="userModel.timePreference" value="eveing">
+        <label class="form-check-label">evening (5-9)</label>
+      </div>
+
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" name="subscription" [(ngModel)]="userModel.subscribe" >
+        <label class="form-check-label">send me professional offers</label>
+      </div>
+   
+    </div>
+    <div>
+     
+    </div>
+    <button mat-raised-button routerlink="/users" routerLinkActive="active" [disabled]="userform.form.invalid">submit</button> 
+  </div>
+  </form>
+</div>
+<router-outlet></router-outlet>

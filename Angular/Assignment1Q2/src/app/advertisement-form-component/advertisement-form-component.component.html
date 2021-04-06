@@ -1,0 +1,42 @@
+<p>advertisement-form-component works!</p>
+
+<div id="dic1" class="container" >
+    <form #userform="ngForm" >
+        
+        <div class="form-group">
+            <label>Title :</label>
+            <input type="text" required #Title="ngModel"[class.is-invalid]="Title.invalid && Title.touched" class="for-control" name="Title" [(ngModel)]="userModel.Title">
+             <br><small [class.d-none]="Title.valid|| Title.untouched"> Titl is required</small> 
+          </div>
+
+        <div class="form-group">
+            <label>name</label>
+            <input type="text" required #name="ngModel"[class.is-invalid]="name.invalid && name.touched" class="for-control" name="username" [(ngModel)]="userModel.name">
+             <br><small [class.d-none]="name.valid|| name.untouched"> Name is required</small> 
+          </div>
+
+        <div class="form-group"> 
+            <label>Select category</label> 
+            <select required #category="ngModel" [class.is-invalid]="category.invalid && category.touched" [ngModel]="userModel.catogry" >
+            <option selected>I am intrested in</option>
+            <option *ngFor="let topic of catogry"> {{topic}} </option>
+          </select>
+          <br><small [class.d-none]="category.valid|| category.untouched"> choose category</small> 
+       </div>  
+
+       <div class="form-group">
+           <label>Discription</label>
+           <input type="text" required name="discription" #discription="ngModel" class="for-control" [class.is-invalid]="discription.invalid && discription.touched" [(ngModel)]="userModel.discription"> 
+           <br> <small [class.d-none]="discription.valid || discription.untouched" > Discription is Required</small>
+       </div>
+     
+        <div class="form-group">
+            <button class="btn btn">Add</button>
+
+            <button class="btn btn-danger">delete</button>
+
+            <button class="btn btn-primary">submit form</button>
+
+        </div>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+<div>
+  {{username}}
+</div>
+<div>
+  <input type="text" #nameRef [(ngModel)]="name" >
+  <h1>welcome {{ name }}</h1>
+</div>
+
+<div>
+  <input type="text"  [(ngModel)]="username" (ngModelChange)="greetvishwas($event)" >
+  <h1>welcome {{ username }}</h1>
+</div>
+
+
+<div>
+  <input type="text" [(ngModel)]="customerName" >
+  <h1>welcome {{ customerName }}</h1>
+</div>
